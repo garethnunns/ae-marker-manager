@@ -1,4 +1,4 @@
-# Marker Manager
+# AE Marker Manager
 
 <img src="docs/icon.svg" alt="Marker Manager logo" width="80" align="left">
 
@@ -15,8 +15,8 @@ Free and open source, under the [MIT licence](LICENSE).
 
 ## Install
 
-1. Download `Marker Manager.jsx` from the [latest release](https://github.com/garethnunns/ae-marker-manager/releases/latest).
-2. Put it in After Effects' `Scripts/ScriptUI Panels` folder:
+1. Download the zip from the [latest release](https://github.com/garethnunns/ae-marker-manager/releases/latest) and unzip it.
+2. Put `Marker Manager.jsx` in After Effects' `Scripts/ScriptUI Panels` folder:
    - macOS: `/Applications/Adobe After Effects <version>/Scripts/ScriptUI Panels/`
    - Windows: `C:\Program Files\Adobe\Adobe After Effects <version>\Support Files\Scripts\ScriptUI Panels\`
 3. Restart After Effects and open it from **Window > Marker Manager.jsx**. Dock it wherever suits.

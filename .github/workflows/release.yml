@@ -26,6 +26,10 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           version="${GITHUB_REF_NAME#v}"
-          gh release create "$GITHUB_REF_NAME" "dist/Marker Manager.jsx" \
+          # Zipped, as GitHub turns the space in an attached file's name
+          # into a dot, and After Effects shows the file's name in its
+          # Window menu.
+          (cd dist && zip -q "Marker-Manager-$version.zip" "Marker Manager.jsx")
+          gh release create "$GITHUB_REF_NAME" "dist/Marker-Manager-$version.zip" \
             --title "Marker Manager $version" \
             --notes-file "docs/release-notes/$version.md"
