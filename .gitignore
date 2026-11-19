@@ -1,0 +1,10 @@
+node_modules/
+dist/
+*.zip
+
+# The After Effects /install last installed to, kept for next time
+.claude/ae-version
+.claude/settings.local.json
+
+# macOS
+.DS_Store
